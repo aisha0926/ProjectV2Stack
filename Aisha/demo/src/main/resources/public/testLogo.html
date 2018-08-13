@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="vue/vue.js"></script>
+</head>
+
+<body>
+	<div id="test" align="center">
+		<img alt="lol" :src="appLogo" style="height:200px;" />
+		<p>{{message}}</p>
+
+		<ul>
+			<link href="css/styleTest.css" rel="stylesheet" />
+			<li>
+				<a href="testing.html">test</a>
+			</li>
+			<li>
+				<a href="addTest.html">test1</a>
+			</li>
+		</ul>
+
+
+		<script type="text/javascript">
+			var growler1 = new Vue({
+				el: '#test',
+				data: {
+					appName: 'Growler',
+					message: 'THIS IS A MESSAGE',
+					appLogo: 'logo.png'
+
+				}
+			});
+		</script>
+			
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
