@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-   <form action="/action_page.php">
+   <form action="/posts" method="POST">
     <legend>Personal information:</legend>
     First name:<br>
     <input type="text" name="firstname" value="Mickey"><br>
